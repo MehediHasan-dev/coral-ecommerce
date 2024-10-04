@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    -- Primary Meta Tags    
+    -->
+  <title>Coral - e-commerce website</title>
+  <meta name="title" content="Coral - e-commerce website">
+  <meta name="description" content="this is e-commerce website created and deployed by Mehedi Hasan">
+
+  <!-- 
+    -- Favicon
+     -->
+  <link rel="shortcut icon" href="" type="image/svg+xml">
+
+  <!-- 
+    -- Google Fonts linked
+     -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+     -- Icons linked
+      -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css">
+
+  <!-- 
+      -- Custom CSS linked
+       -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+       -- Swiper CSS linked
+        -->
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+  <!-- 
+        -- Preload Images
+         -->
+</head>
+
+<body class="">
+
+  <!-- 
+    -- #PRELOADER
+     -->
+  <div class="preloader" data-preloader>
+    <div class="preloader-circle"></div>
+  </div>
+
+  <!-- 
+     -- #HEADER
+      -->
+  <header class="header" data-header>
+
+    <div class="header-top">
+      <div class="container">
+
+        <button class="open-menu-btn" data-menu-toggler aria-label="open menu">
+          <i class="ri-menu-line" aria-hidden="true"></i>
+        </button>
+
+        <form class="nav-form">
+
+          <input type="text" name="search" placeholder="Search Products" autocomplete="off" class="input-field">
+
+          <div class="search-icon">
+            <i class="ri-search-line" aria-hidden="true"></i>
+          </div>
+
+        </form>
+
+        <a href="\" class="nav-logo" aria-label="nav logo">
+          <div class="separator-wrapper">
+            <span class="separator"></span>
+            <span class="separator"></span>
+            <span class="separator"></span>
+          </div>
+          <h2 class="logo">CORAL</h2>
+          <div class="separator-wrapper">
+            <span class="separator"></span>
+            <span class="separator"></span>
+            <span class="separator"></span>
+          </div>
+        </a>
+
+        <ul class="nav-wrapper">
+
+          <li class="nav-item">
+
+            <div class="item-icon">
+              <i class="ri-user-fill" aria-hidden="true"></i>
+            </div>
+
+            <span class="span">
+              Shoping
+            </span>
+
+          </li>
+
+          <li class="nav-item">
+
+            <div class="item-icon">
+              <i class="ri-shopping-bag-fill" aria-hidden="true"></i>
+            </div>
+
+            <span class="span">
+              Shoping
+            </span>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-mobile-menu>
+      <div class="container">
+
+        <div class="menu-top">
+
+          <h2 class="title-2 title">Category</h2>
+
+          <button class="close-menu-btn" data-menu-toggler aria-label="close menu">
+            <i class="ri-close-fill" aria-hidden="true"></i>
+          </button>
+
+        </div>
+
+
+        <ul class="category-list">
+
+          <li class="category-item">
+            <a href="#" class="category-link label-1">Jewelry & Accessories</a>
+          </li>
+
+          <li class="category-item">
+            <a href="#" class="category-link label-1">Clothing & Shoes</a>
+          </li>
+
+          <li class="category-item">
+            <a href="#" class="category-link label-1">Home & Living</a>
+          </li>
+
+          <li class="category-item">
+            <a href="#" class="category-link label-1">Wedding & Party</a>
+          </li>
+
+          <li class="category-item">
+            <a href="#" class="category-link label-1">Toys & Entertainment</a>
+          </li>
+
+          <li class="category-item">
+            <a href="#" class="category-link label-1">Art & Collectibles</a>
+          </li>
+
+          <li class="category-item">
+            <a href="#" class="category-link label-1">Craft Supplies & Tools</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="overlay" data-overlay></div>
+
+  </header>
+
+  <!-- 
+      -- MAIN
+       -->
+  <main class="main">
+
+    <!-- ---- Hero Section ---- -->
+    <section class="hero section text-center" aria-label="home">
+      <div class="container">
+
+        <div class="hero-main">
+
+          <div class="hero-content">
+
+            <h1 class="hero-title display-text">Collections</h1>
+
+            <p class="hero-text body-2">you can explore ans shop many differnt collection
+              from various barands here.</p>
+
+
+            <button class="btn btn-primary hero-btn">
+
+              <div class="btn-icon">
+                <i class="ri-shopping-bag-fill" aria-hidden="true"></i>
+              </div>
+
+              <span class="span">shop now</span>
+
+            </button>
+
+          </div>
+
+          <div class="hero-banner">
+
+            <figure class="bg-holder">
+              <img src="./assets/images/hero-banner.png" width="424" height="542" role="img" alt="" class="w-100">
+            </figure>
+
+          </div>
+
+        </div>
+
+        <img src="./assets/images/hero-shape-1.png" width="195" height="262" alt="shape" class="shape shape-1">
+        <img src="./assets/images/hero-shape-2.png" width="133" height="66" alt="" class="shape shape-2">
+
+      </div>
+    </section>
+
+
+    <!-- ---- Brand Section ---- -->
+    <section class="brand" aria-label="brand-label">
+      <div class="container">
+
+        <div class="swiper">
+
+          <ul class="swiper-wrapper">
+
+            <li class="swiper-slide">
+
+              <div class="slider-item">
+                <img src="./assets/images/brand-1.png" width="200" height="70" role="logo" alt="brand" class="item-img">
+              </div>
+
+            </li>
+
+            <li class="swiper-slide">
+
+              <div class="slider-item">
+                <img src="./assets/images/brand-2.png" width="200" height="70" role="logo" alt="brand" class="item-img">
+              </div>
+
+            </li>
+
+            <li class="swiper-slide">
+
+              <div class="slider-item">
+                <img src="./assets/images/brand-3.png" width="200" height="70" role="logo" alt="brand" class="item-img">
+              </div>
+
+            </li>
+
+            <li class="swiper-slide">
+
+              <div class="slider-item">
+                <img src="./assets/images/brand-4.png" width="200" height="70" role="logo" alt="brand" class="item-img">
+              </div>
+
+            </li>
+
+            <li class="swiper-slide">
+
+              <div class="slider-item">
+                <img src="./assets/images/brand-5.png" width="200" height="70" role="logo" alt="brand" class="item-img">
+              </div>
+
+            </li>
+
+          </ul>
+
+          <div class="swiper-pagination"></div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ---- New Section ---- -->
+    <section class="new section" aria-label="new collection and popular collection">
+      <div class="container">
+
+        <h2 class="title-1 section-title text-center">
+          Explore new and popular styles
+        </h2>
+
+        <ul class="grid-list">
+
+          <li class="grid-item">
+
+            <figure class="img-holder" style="--width:648; --height:648;">
+              <img src="./assets/images/image-category-1.png" width="648" height="648" alt="new category banner"
+                class="img-cover">
+
+              <div class="card-overlay">
+
+                <div class="flex-group">
+
+                  <p class="body-5">jacket</p>
+
+                  <p class="body-5">103 product</p>
+
+                </div>
+
+              </div>
+
+            </figure>
+
+          </li>
+
+          <li class="grid-item">
+
+            <figure class="img-holder" style="--width:312; --height:312;">
+              <img src="./assets/images/item-category-1.png" width="312" height="312" alt="new category banner"
+                class="img-cover">
+
+              <div class="card-overlay">
+
+                <div class="flex-group">
+
+                  <p class="body-5">jacket</p>
+
+                  <p class="body-5">103 product</p>
+
+                </div>
+
+              </div>
+
+            </figure>
+
+          </li>
+
+          <li class="grid-item">
+
+            <figure class="img-holder" style="--width:312; --height:312;">
+              <img src="./assets/images/item-category-2.png" width="312" height="312" alt="new category banner"
+                class="img-cover">
+
+              <span class="badge" style="--accent-color:hsl(0, 0%, 5%);">SALE</span>
+
+
+
+              <div class="card-overlay">
+
+                <div class="flex-group">
+
+                  <p class="body-5">jacket</p>
+
+                  <p class="body-5">103 product</p>
+
+                </div>
+
+              </div>
+
+            </figure>
+
+          </li>
+
+          <li class="grid-item">
+
+            <figure class="img-holder" style="--width:312; --height:312;">
+              <img src="./assets/images/item-category-3.png" width="312" height="312" alt="new category banner"
+                class="img-cover">
+
+
+              <div class="card-overlay">
+
+                <div class="flex-group">
+
+                  <p class="body-5">jacket</p>
+
+                  <p class="body-5">103 product</p>
+
+                </div>
+
+              </div>
+
+            </figure>
+
+          </li>
+
+          <li class="grid-item">
+
+            <figure class="img-holder" style="--width:312; --height:312;">
+              <img src="./assets/images/item-category-4.png" width="312" height="312" alt="new category banner"
+                class="img-cover">
+
+
+              <div class="card-overlay">
+
+                <div class="flex-group">
+
+                  <p class="body-5">jacket</p>
+
+                  <p class="body-5">103 product</p>
+
+                </div>
+
+              </div>
+
+            </figure>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- ---- Product Section ---- -->
+    <section class="product section" aria-label="product-label">
+      <div class="container">
+
+        <h2 class="headline-text section-title text-center">
+          Our Products
+        </h2>
+
+        <div class="wrapper">
+
+          <div class="tab-list" aria-label="product sort by category">
+
+            <button class="tab-item" tabindex="0" data-tab-btn aria-label="product sort category button">
+              <span class="span">all products</span>
+            </button>
+
+            <button class="tab-item" tabindex="0" data-tab-btn aria-label="product sort category button">
+              <span class="span">t-shirt</span>
+            </button>
+
+            <button class="tab-item" tabindex="0" data-tab-btn aria-label="product sort category button">
+              <span class="span">hoodies</span>
+            </button>
+
+            <button class="tab-item" tabindex="0" data-tab-btn aria-label="product sort category button">
+              <span class="span">jacket</span>
+            </button>
+
+          </div>
+
+          <div class="filter-wrapper">
+
+            <button class="btn filter-btn btn-primary">
+
+              <div class="btn-icon">
+                <i class="ri-filter-2-fill"></i>
+              </div>
+
+              <span class="span">Filter</span>
+
+            </button>
+
+
+            <ul class="filter-item-list" data-filter-menu-list aria-label="filter-label" style="display: none;">
+
+
+
+            </ul>
+
+          </div>
+
+        </div>
+
+        <ul class="product-list grid-list">
+
+          <li class="product-item grid-item">
+
+            <figure class="img-holder" style="--width:312; --height:400;">
+              <img src="./assets/images/image-product-1.png" width="312" height="400" role="img" alt="product"
+                class="img-cover">
+
+
+              <div class="card-overlay">
+
+                <div class="flex-group">
+
+                  <div class="flex-icon">
+                    <div class="icon">
+                      <i class="ri-heart-line" aria-hidden="true"></i>
+                    </div>
+                    <div class="icon">
+                      <i class="ri-search-line" aria-hidden="true"></i>
+                    </div>
+                  </div>
+
+
+                  <button class="btn btn-primary">
+                    <div class="btn-icon">
+                      <i class="ri-shopping-bag-fill" aria-hidden="true"></i>
+                    </div>
+
+                    <span class="span">shop now</span>
+
+                  </button>
+
+                </div>
+
+              </div>
+
+
+            </figure>
+
+            <div class="content">
+
+              <h3 class="title-3 title">Adicolor Classics Joggers</h3>
+
+              <div class="flex-group">
+                <span class="body-4 brand">Dress</span>
+
+                <div class="price-group">
+
+                  <p class="product-original-price" style="--accent-color: hsl(0, 0%, 0%);">
+
+                    <span class="visually-hidden">Original-Price:</span>
+
+                    <s class="body-4"></s>
+
+                  </p>
+
+                  <p class="product-price" style="--accent-color:hsl(0, 0%, 0%);">
+
+                    <span class="visually-hidden">Current-Price:</span>
+
+                    <span class="body-4">$168.00</span>
+
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="product-item grid-item">
+
+            <figure class="img-holder" style="--width:312; --height:400;">
+              <img src="./assets/images/image-product-2.png" width="312" height="400" role="img" alt="product"
+                class="img-cover">
+
+
+              <div class="card-overlay">
+
+                <div class="flex-group">
+
+                  <div class="flex-icon">
+                    <div class="icon">
+                      <i class="ri-heart-line" aria-hidden="true"></i>
+                    </div>
+                    <div class="icon">
+                      <i class="ri-search-line" aria-hidden="true"></i>
+                    </div>
+                  </div>
+
+
+                  <button class="btn btn-primary">
+                    <div class="btn-icon">
+                      <i class="ri-shopping-bag-fill" aria-hidden="true"></i>
+                    </div>
+
+                    <span class="span">shop now</span>
+
+                  </button>
+
+                </div>
+
+              </div>
+
+
+            </figure>
+
+            <div class="content">
+
+              <h3 class="title-3 title">Adicolor Classics Joggers</h3>
+
+              <div class="flex-group">
+                <span class="body-4 brand">Dress</span>
+
+                <div class="price-group">
+
+                  <p class="product-original-price" style="--accent-color:hsl(199, 7%, 55%);">
+
+                    <span class="visually-hidden">Original-Price:</span>
+
+                    <s class="body-4"></s>
+
+                  </p>
+
+                  <p class="product-price" style="--accent-color: hsl(0, 0%, 0%);">
+
+                    <span class="visually-hidden">Current-Price:</span>
+
+                    <span class="body-4">$168.00</span>
+
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="product-item grid-item">
+
+            <figure class="img-holder" style="--width:312; --height:400;">
+              <img src="./assets/images/image-product-3.png" width="312" height="400" role="img" alt="product"
+                class="img-cover">
+
+
+              <div class="card-overlay">
+
+                <div class="flex-group">
+
+                  <div class="flex-icon">
+                    <div class="icon">
+                      <i class="ri-heart-line" aria-hidden="true"></i>
+                    </div>
+                    <div class="icon">
+                      <i class="ri-search-line" aria-hidden="true"></i>
+                    </div>
+                  </div>
+
+
+                  <button class="btn btn-primary">
+                    <div class="btn-icon">
+                      <i class="ri-shopping-bag-fill" aria-hidden="true"></i>
+                    </div>
+
+                    <span class="span">shop now</span>
+
+                  </button>
+
+                </div>
+
+              </div>
+
+
+            </figure>
+
+            <div class="content">
+
+              <h3 class="title-3 title">Adicolor Classics Joggers</h3>
+
+              <div class="flex-group">
+                <span class="body-4 brand">Dress</span>
+
+                <div class="price-group">
+
+                  <p class="product-original-price" style="--accent-color:hsl(199, 7%, 55%);">
+
+                    <span class="visually-hidden">Original-Price:</span>
+
+                    <s class="body-4"></s>
+
+                  </p>
+
+                  <p class="product-price" style="--accent-color: hsl(0, 0%, 0%);">
+
+                    <span class="visually-hidden">Current-Price:</span>
+
+                    <span class="body-4">$168.00</span>
+
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="product-item grid-item">
+
+            <figure class="img-holder" style="--width:312; --height:400;">
+              <img src="./assets/images/image-product-4.png" width="312" height="400" role="img" alt="product"
+                class="img-cover">
+
+
+              <div class="card-overlay">
+
+                <div class="flex-group">
+
+                  <div class="flex-icon">
+                    <div class="icon">
+                      <i class="ri-heart-line" aria-hidden="true"></i>
+                    </div>
+                    <div class="icon">
+                      <i class="ri-search-line" aria-hidden="true"></i>
+                    </div>
+                  </div>
+
+
+                  <button class="btn btn-primary">
+                    <div class="btn-icon">
+                      <i class="ri-shopping-bag-fill" aria-hidden="true"></i>
+                    </div>
+
+                    <span class="span">shop now</span>
+
+                  </button>
+
+                </div>
+
+              </div>
+
+
+
+              <span class="badge" style="--accent-color:hsl(0, 0%, 0%);">SALE</span>
+
+            </figure>
+
+            <div class="content">
+
+              <h3 class="title-3 title">Adicolor Classics Joggers</h3>
+
+              <div class="flex-group">
+                <span class="body-4 brand">Dress</span>
+
+                <div class="price-group">
+
+                  <p class="product-original-price" style="--accent-color:hsl(199, 7%, 55%);">
+
+                    <span class="visually-hidden">Original-Price:</span>
+
+                    <s class="body-4">$220.00</s>
+
+                  </p>
+
+                  <p class="product-price" style="--accent-color:hsl(6, 100%, 70%);">
+
+                    <span class="visually-hidden">Current-Price:</span>
+
+                    <span class="body-4">$168.00</span>
+
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="product-item grid-item">
+
+            <figure class="img-holder" style="--width:312; --height:400;">
+              <img src="./assets/images/image-product-5.png" width="312" height="400" role="img" alt="product"
+                class="img-cover">
+
+
+              <div class="card-overlay">
+
+                <div class="flex-group">
+
+                  <div class="flex-icon">
+                    <div class="icon">
+                      <i class="ri-heart-line" aria-hidden="true"></i>
+                    </div>
+                    <div class="icon">
+                      <i class="ri-search-line" aria-hidden="true"></i>
+                    </div>
+                  </div>
+
+
+                  <button class="btn btn-primary">
+                    <div class="btn-icon">
+                      <i class="ri-shopping-bag-fill" aria-hidden="true"></i>
+                    </div>
+
+                    <span class="span">shop now</span>
+
+                  </button>
+
+                </div>
+
+              </div>
+
+
+
+              <span class="badge" style="--accent-color:hsl(6, 100%, 70%);">HOT</span>
+
+            </figure>
+
+            <div class="content">
+
+              <h3 class="title-3 title">Adicolor Classics Joggers</h3>
+
+              <div class="flex-group">
+                <span class="body-4 brand">Dress</span>
+
+                <div class="price-group">
+
+                  <p class="product-original-price" style="--accent-color:hsl(199, 7%, 55%);">
+
+                    <span class="visually-hidden">Original-Price:</span>
+
+                    <s class="body-4"></s>
+
+                  </p>
+
+                  <p class="product-price" style="--accent-color:hsl(0, 0%, 0%);">
+
+                    <span class="visually-hidden">Current-Price:</span>
+
+                    <span class="body-4">$168.00</span>
+
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="product-item grid-item">
+
+            <figure class="img-holder" style="--width:312; --height:400;">
+              <img src="./assets/images/image-product-6.png" width="312" height="400" role="img" alt="product"
+                class="img-cover">
+
+
+              <div class="card-overlay">
+
+                <div class="flex-group">
+
+                  <div class="flex-icon">
+                    <div class="icon">
+                      <i class="ri-heart-line" aria-hidden="true"></i>
+                    </div>
+                    <div class="icon">
+                      <i class="ri-search-line" aria-hidden="true"></i>
+                    </div>
+                  </div>
+
+
+                  <button class="btn btn-primary">
+                    <div class="btn-icon">
+                      <i class="ri-shopping-bag-fill" aria-hidden="true"></i>
+                    </div>
+
+                    <span class="span">shop now</span>
+
+                  </button>
+
+                </div>
+
+              </div>
+
+
+
+              <span class="badge" style="--accent-color:hsl(0, 0%, 0%);">SALE</span>
+
+            </figure>
+
+            <div class="content">
+
+              <h3 class="title-3 title">Adicolor Classics Joggers</h3>
+
+              <div class="flex-group">
+                <span class="body-4 brand">Dress</span>
+
+                <div class="price-group">
+
+                  <p class="product-original-price" style="--accent-color:hsl(199, 7%, 55%);">
+
+                    <span class="visually-hidden">Original-Price:</span>
+
+                    <s class="body-4">$220.00</s>
+
+                  </p>
+
+                  <p class="product-price" style="--accent-color:hsl(6, 100%, 70%);">
+
+                    <span class="visually-hidden">Current-Price:</span>
+
+                    <span class="body-4">$168.00</span>
+
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="product-item grid-item">
+
+            <figure class="img-holder" style="--width:312; --height:400;">
+              <img src="./assets/images/image-product-7.png" width="312" height="400" role="img" alt="product"
+                class="img-cover">
+
+
+              <div class="card-overlay">
+
+                <div class="flex-group">
+
+                  <div class="flex-icon">
+                    <div class="icon">
+                      <i class="ri-heart-line" aria-hidden="true"></i>
+                    </div>
+                    <div class="icon">
+                      <i class="ri-search-line" aria-hidden="true"></i>
+                    </div>
+                  </div>
+
+
+                  <button class="btn btn-primary">
+                    <div class="btn-icon">
+                      <i class="ri-shopping-bag-fill" aria-hidden="true"></i>
+                    </div>
+
+                    <span class="span">shop now</span>
+
+                  </button>
+
+                </div>
+
+              </div>
+
+
+            </figure>
+
+            <div class="content">
+
+              <h3 class="title-3 title">Adicolor Classics Joggers</h3>
+
+              <div class="flex-group">
+                <span class="body-4 brand">Dress</span>
+
+                <div class="price-group">
+
+                  <p class="product-original-price" style="--accent-color:hsl(199, 7%, 55%);">
+
+                    <span class="visually-hidden">Original-Price:</span>
+
+                    <s class="body-4"></s>
+
+                  </p>
+
+                  <p class="product-price" style="--accent-color:hsl(0, 0%, 0%);">
+
+                    <span class="visually-hidden">Current-Price:</span>
+
+                    <span class="body-4">$168.00</span>
+
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="product-item grid-item">
+
+            <figure class="img-holder" style="--width:312; --height:400;">
+              <img src="./assets/images/image-product-8.png" width="312" height="400" role="img" alt="product"
+                class="img-cover">
+
+
+              <div class="card-overlay">
+
+                <div class="flex-group">
+
+                  <div class="flex-icon">
+                    <div class="icon">
+                      <i class="ri-heart-line" aria-hidden="true"></i>
+                    </div>
+                    <div class="icon">
+                      <i class="ri-search-line" aria-hidden="true"></i>
+                    </div>
+                  </div>
+
+
+                  <button class="btn btn-primary">
+                    <div class="btn-icon">
+                      <i class="ri-shopping-bag-fill" aria-hidden="true"></i>
+                    </div>
+
+                    <span class="span">shop now</span>
+
+                  </button>
+
+                </div>
+
+              </div>
+
+
+            </figure>
+
+            <div class="content">
+
+              <h3 class="title-3 title">Adicolor Classics Joggers</h3>
+
+              <div class="flex-group">
+                <span class="body-4 brand">Dress</span>
+
+                <div class="price-group">
+
+                  <p class="product-original-price" style="--accent-color:hsl(199, 7%, 55%);">
+
+                    <span class="visually-hidden">Original-Price:</span>
+
+                    <s class="body-4"></s>
+
+                  </p>
+
+                  <p class="product-price" style="--accent-color:hsl(0, 0%, 0%);">
+
+                    <span class="visually-hidden">Current-Price:</span>
+
+                    <span class="body-4">$168.00</span>
+
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+
+
+      </div>
+    </section>
+
+
+    <!-- ---- Brand Banner ---- -->
+    <section class="banner section" aria-label="banner-label" style="background-color: var(--dark-pureBlack);">
+      <div class="container">
+        <div class="content text-center">
+
+          <img src="./assets/images/zara-logo.png" class="logo">
+
+          <p class="body-1 text">Lustrous yet understated. The new evening
+            wear collection exclusively offered at the
+            reopened Giorgio Armani boutique in Los
+            Angeles.</p>
+
+          <button class="btn btn-white banner-btn">see collection</button>
+
+        </div>
+      </div>
+
+      <img src="./assets/images/text-shape.png" width="732" alt="shape" class="shape">
+
+    </section>
+
+
+    <!-- ---- Best Sellers Section ---- -->
+    <section class="seller section" aria-label="best sallers">
+      <div class="container">
+
+        <h2 class="headline-text section-title text-center">
+          Best sellers
+        </h2>
+
+        <div class="wrapper">
+
+          <div class="tab-list" aria-label="product sort by category">
+
+            <button class="tab-item" tabindex="0" data-tab-btn aria-label="product sort category button">
+              <span class="span">all products</span>
+            </button>
+
+            <button class="tab-item" tabindex="0" data-tab-btn aria-label="product sort category button">
+              <span class="span">t-shirt</span>
+            </button>
+
+            <button class="tab-item" tabindex="0" data-tab-btn aria-label="product sort category button">
+              <span class="span">hoodies</span>
+            </button>
+
+            <button class="tab-item" tabindex="0" data-tab-btn aria-label="product sort category button">
+              <span class="span">jacket</span>
+            </button>
+
+          </div>
+
+
+          <button class="btn btn-primary show-all-btn">
+            <span class="span">show all</span>
+          </button>
+
+
+        </div>
+
+        <div class="swiper">
+
+          <ul class="swiper-wrapper">
+
+            <li class="swiper-slide product-item">
+
+              <div class="card">
+
+                <figure class="img-holder" style="--width:312; --height:400;">
+                  <img src="./assets/images/image-product-5.png" width="312" height="400" role="img" alt="product"
+                    class="img-cover">
+
+                  <span class="badge" style="--accent-color:hsl(6, 100%, 70%);">HOT</span>
+
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="title-3 title">Adicolor Classics Joggers</h3>
+
+                  <div class="flex-group">
+                    <span class="body-4 brand">Dress</span>
+
+                    <div class="price-group">
+
+                      <p class="product-original-price" style="--accent-color:hsl(199, 7%, 55%);">
+
+                        <span class="visually-hidden">Original-Price:</span>
+
+                        <s class="body-4"></s>
+
+                      </p>
+
+                      <p class="product-price" style="--accent-color:hsl(0, 0%, 0%);">
+
+                        <span class="visually-hidden">Current-Price:</span>
+
+                        <span class="body-4">$168.00</span>
+
+                      </p>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="swiper-slide product-item">
+
+              <div class="card">
+
+                <figure class="img-holder" style="--width:312; --height:400;">
+                  <img src="./assets/images/image-product-2.png" width="312" height="400" role="img" alt="product"
+                    class="img-cover">
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="title-3 title">Adicolor Classics Joggers</h3>
+
+                  <div class="flex-group">
+                    <span class="body-4 brand">Dress</span>
+
+                    <div class="price-group">
+
+                      <p class="product-original-price" style="--accent-color:hsl(199, 7%, 55%);">
+
+                        <span class="visually-hidden">Original-Price:</span>
+
+                        <s class="body-4"></s>
+
+                      </p>
+
+                      <p class="product-price" style="--accent-color: hsl(0, 0%, 0%);">
+
+                        <span class="visually-hidden">Current-Price:</span>
+
+                        <span class="body-4">$168.00</span>
+
+                      </p>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="swiper-slide product-item">
+
+              <div class="card">
+
+                <figure class="img-holder" style="--width:312; --height:400;">
+                  <img src="./assets/images/image-product-4.png" width="312" height="400" role="img" alt="product"
+                    class="img-cover">
+
+                  <span class="badge" style="--accent-color:hsl(0, 0%, 0%);">SALE</span>
+
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="title-3 title">Adicolor Classics Joggers</h3>
+
+                  <div class="flex-group">
+                    <span class="body-4 brand">Dress</span>
+
+                    <div class="price-group">
+
+                      <p class="product-original-price" style="--accent-color:hsl(199, 7%, 55%);">
+
+                        <span class="visually-hidden">Original-Price:</span>
+
+                        <s class="body-4">$220.00</s>
+
+                      </p>
+
+                      <p class="product-price" style="--accent-color:hsl(6, 100%, 70%);">
+
+                        <span class="visually-hidden">Current-Price:</span>
+
+                        <span class="body-4">$168.00</span>
+
+                      </p>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="swiper-slide product-item">
+
+              <div class="card">
+
+                <figure class="img-holder" style="--width:312; --height:400;">
+                  <img src="./assets/images/image-product-6.png" width="312" height="400" role="img" alt="product"
+                    class="img-cover">
+
+                  <span class="badge" style="--accent-color:hsl(0, 0%, 0%);">SALE</span>
+
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="title-3 title">Adicolor Classics Joggers</h3>
+
+                  <div class="flex-group">
+                    <span class="body-4 brand">Dress</span>
+
+                    <div class="price-group">
+
+                      <p class="product-original-price" style="--accent-color:hsl(199, 7%, 55%);">
+
+                        <span class="visually-hidden">Original-Price:</span>
+
+                        <s class="body-4">$220.00</s>
+
+                      </p>
+
+                      <p class="product-price" style="--accent-color:hsl(6, 100%, 70%);">
+
+                        <span class="visually-hidden">Current-Price:</span>
+
+                        <span class="body-4">$168.00</span>
+
+                      </p>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+          </ul>
+
+
+          <div class="swiper-pagination"></div>
+
+        </div>
+
+
+        <button class="slide-btn prev" aria-label="previous slider button" data-slide-prev>
+          <i class="ri-arrow-left-s-line" aria-hidden="true"></i>
+        </button>
+
+        <button class="slide-btn next" aria-label="Next slider button" data-slide-next>
+          <i class="ri-arrow-right-s-line" aria-hidden="true"></i>
+        </button>
+
+      </div>
+    </section>
+
+
+    <!-- ---- Instagram Section ---- -->
+    <section class="insta section" aria-label="instagram product link">
+      <div class="container">
+
+        <h2 class="headline-text section-title text-center">
+          Follow products and discounts on Instagram
+        </h2>
+
+        <ul class="grid-list">
+
+          <li class="grid-item">
+
+            <div class="card">
+
+              <figure class="img-holder" style="--whidth:200; --height:200;">
+                <img src="./assets/images/insta-image-1.png" width="200" height="200" role="image" alt=""
+                  class="img-cover">
+
+
+                <div class="card-overlay">
+
+                  <a href="#" class="insta-icon">
+                    <i class="ri-instagram-line" aria-hidden="true"></i>
+                  </a>
+
+                </div>
+
+              </figure>
+
+            </div>
+
+          </li>
+
+          <li class="grid-item">
+
+            <div class="card">
+
+              <figure class="img-holder" style="--whidth:200; --height:200;">
+                <img src="./assets/images/insta-image-2.png" width="200" height="200" role="image" alt=""
+                  class="img-cover">
+
+
+                <div class="card-overlay">
+
+                  <a href="#" class="insta-icon">
+                    <i class="ri-instagram-line" aria-hidden="true"></i>
+                  </a>
+
+                </div>
+
+              </figure>
+
+            </div>
+
+          </li>
+
+          <li class="grid-item">
+
+            <div class="card">
+
+              <figure class="img-holder" style="--whidth:200; --height:200;">
+                <img src="./assets/images/insta-image-3.png" width="200" height="200" role="image" alt=""
+                  class="img-cover">
+
+
+                <div class="card-overlay">
+
+                  <a href="#" class="insta-icon">
+                    <i class="ri-instagram-line" aria-hidden="true"></i>
+                  </a>
+
+                </div>
+
+              </figure>
+
+            </div>
+
+          </li>
+
+          <li class="grid-item">
+
+            <div class="card">
+
+              <figure class="img-holder" style="--whidth:200; --height:200;">
+                <img src="./assets/images/insta-image-4.png" width="200" height="200" role="image" alt=""
+                  class="img-cover">
+
+
+                <div class="card-overlay">
+
+                  <a href="#" class="insta-icon">
+                    <i class="ri-instagram-line" aria-hidden="true"></i>
+                  </a>
+
+                </div>
+
+              </figure>
+
+            </div>
+
+          </li>
+
+          <li class="grid-item">
+
+            <div class="card">
+
+              <figure class="img-holder" style="--whidth:200; --height:200;">
+                <img src="./assets/images/insta-image-5.png" width="200" height="200" role="image" alt=""
+                  class="img-cover">
+
+
+                <div class="card-overlay">
+
+                  <a href="#" class="insta-icon">
+                    <i class="ri-instagram-line" aria-hidden="true"></i>
+                  </a>
+
+                </div>
+
+              </figure>
+
+            </div>
+
+          </li>
+
+          <li class="grid-item">
+
+            <div class="card">
+
+              <figure class="img-holder" style="--whidth:200; --height:200;">
+                <img src="./assets/images/insta-image-6.png" width="200" height="200" role="image" alt=""
+                  class="img-cover">
+
+
+                <div class="card-overlay">
+
+                  <a href="#" class="insta-icon">
+                    <i class="ri-instagram-line" aria-hidden="true"></i>
+                  </a>
+
+                </div>
+
+              </figure>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+
+    <!-- ---- Newsetter Section ---- -->
+    <section class="newsletter section" aria-label="newsletter-label">
+      <div class="container">
+
+        <h2 class="headline-text section-title text-center">
+          Or subscribe to the newsletter
+        </h2>
+
+        <form class="nwl-form">
+
+          <div class="input">
+            <input type="text" name="email" placeholder="Email Address...." autocomplete="off" class="input-field">
+          </div>
+
+          <button class="btn submit-btn">SUBMIT</button>
+
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- 
+    -- #FOOTER
+     -->
+  <footer class="footer" aria-label="Footer-label" style="background-color: var(--white-pureWhite);">
+
+    <div class="footer-top text-center">
+      <div class="container">
+
+        <div class="wrapper">
+
+          <a href="\" class="nav-logo" aria-label="nav logo">
+            <div class="separator-wrapper">
+              <span class="separator"></span>
+              <span class="separator"></span>
+              <span class="separator"></span>
+            </div>
+            <h2 class="logo">CORAL</h2>
+            <div class="separator-wrapper">
+              <span class="separator"></span>
+              <span class="separator"></span>
+              <span class="separator"></span>
+            </div>
+          </a>
+
+          <p class="text body-4">Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua</p>
+
+          <ul class="social-list flex-group">
+
+            <li class="social-item" style="--accent-color: hsl(221, 57%, 51%);">
+              <i class="ri-facebook-fill" aria-hidden="true"></i>
+            </li>
+
+            <li class="social-item" style="--accent-color: hsl(203, 89%, 53%);">
+              <i class="ri-twitter-fill" aria-hidden="true"></i>
+            </li>
+
+            <li class="social-item" style="--accent-color:hsl(201, 100%, 35%);">
+              <i class="ri-linkedin-fill" aria-hidden="true"></i>
+            </li>
+
+            <li class="social-item" style="--accent-color: hsl(329, 58%, 57%);">
+              <i class="ri-instagram-line" aria-hidden="true"></i>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <nav class="footer-nav" aria-label="footer-nav-1">
+
+          <h3 class="title-2 title">CATALOG</h3>
+
+          <ul class="footer-list" id="footer-nav-1">
+
+            <li class="footer-item">
+              <a href="#" class="footer-link label-2">Necklaces</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link label-2">hoodies</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link label-2">Jewelry Box</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link label-2">t-shirt</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link label-2">jacket</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <nav class="footer-nav" aria-label="footer-nav-2">
+
+          <h3 class="title-2 title">ABOUT US</h3>
+
+          <ul class="footer-list" id="footer-nav-2">
+
+            <li class="footer-item">
+              <a href="#" class="footer-link label-2">Our Producers</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link label-2">Sitemap</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link label-2">FAQ</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link label-2">About Us</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link label-2">Terms & Conditions</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <nav class="footer-nav" aria-label="footer-nav-2">
+
+          <h3 class="title-2 title">CUSTOMER SERVICES</h3>
+
+          <ul class="footer-list" id="footer-nav-2">
+
+            <li class="footer-item">
+              <a href="#" class="footer-link label-2">Contact Us</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link label-2">Track Your Order</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link label-2">Product Care & Repair</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link label-2">Book an Appointment</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link label-2">Shipping & Returns</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+      </div>
+    </div>
+
+
+    <div class="footer-bottom text-center" style="background-color: var(--dark-pureBlack);">
+      <div class="container">
+
+        <p class="copyright body-4">© 2022 Coral , Inc.</p>
+
+
+        <div class="flex-group">
+          <img src="./assets/images/payment-img-1.png" width="42" height="24" alt="payment image" role="image"
+            class="p-img">
+          <img src="./assets/images/payment-img-2.png" width="42" height="24" alt="payment image" role="image"
+            class="p-img">
+          <img src="./assets/images/payment-img-3.png" width="42" height="24" alt="payment image" role="image"
+            class="p-img">
+          <img src="./assets/images/payment-img-4.png" width="42" height="24" alt="payment image" role="image"
+            class="p-img">
+          <img src="./assets/images/payment-img-5.png" width="42" height="24" alt="payment image" role="image"
+            class="p-img">
+          <img src="./assets/images/payment-img-6.png" width="42" height="24" alt="payment image" role="image"
+            class="p-img">
+        </div>
+
+
+        <a href="#top" class="backtotop-btn btn body-4">
+          Scroll to top
+
+          <div class="btn-icon">
+            <i class="ri-arrow-up-line" aria-hidden="true"></i>
+          </div>
+
+        </a>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+  <!-- 
+    -- ALL JS LINKED
+     -->
+
+  <!-- ---- Main JS linked ---- -->
+  <script src="./assets/js/main.js"></script>
+
+  <!-- ---- Swiper JS linked ---- -->
+  <script src="./assets/js/swiper-bundle.min.js"></script>
+  <!-- ---- Reveal JS linked ---- -->
+
+</body>
+
+</html>
